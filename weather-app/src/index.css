@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.App {
+  background-image: linear-gradient(to right,
+      rgba(255, 0, 0, 0.52),
+      rgba(0, 195, 255, 0.73)),
+    url("img/app.jpg");
+  background-repeat: no-repeat;
+  transition: 0.2s ease;
+}
+
+.App.hot {
+  background-image: linear-gradient(to bottom,
+      rgba(255, 16, 16, 0.52),
+      rgba(0, 0, 0, 0.73)),
+    url("img/hot.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.2s ease;
+}
+
+main {
+  min-height: 100vh;
+  padding: 25px;
+}
+
+.App.cold {
+  background-image: linear-gradient(to bottom,
+      rgba(0, 255, 213, 0.52),
+      rgba(0, 0, 0, 0.73)),
+    url("img/cold.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.2s ease;
+}
+
+.search-container {
+  width: 100%;
+  margin: 0 0 75px;
+}
+
+.search-bar {
+  color: black;
+  font-size: 15px;
+  display: block;
+  width: 100%;
+  padding: 15px;
+  border: none;
+  outline: none;
+  appearance: none;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 0px 5px rgba(58, 53, 53, 0.73);
+  background: rgba(255, 255, 255, 0.52);
+  transition: 0.4s ease;
+}
+
+.search-container .search-bar:focus {
+  background-color: white;
+}
+
+.location-container {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  text-shadow: 3px 3px rgba(58, 53, 53, 0.73);
+}
+
+.location-container .date {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  text-shadow: 3px 3px rgba(58, 53, 53, 0.73);
+}
+
+.weather-container {
+  text-align: center;
+}
+
+.weather-container .temperature {
+  color: white;
+  position: relative;
+  display: inline-block;
+  margin: 30px auto;
+  padding: 15px 25px;
+  font-size: 100px;
+  font-weight: 700;
+  background-color: rgb(255, 255, 255, 0.1);
+  border-radius: 16px;
+  box-shadow: 3px 3px rgba(58, 53, 53, 0.73);
+  text-shadow: 3px 3px rgba(58, 53, 53, 0.73);
+}
+
+.weather-container .weather {
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  text-shadow: 3px 3px rgba(58, 53, 53, 0.73);
+}
+
+label {
+  color: white;
+  margin: 5px;
+  font-size: 15px;
+  font-family: fantasy;
+}

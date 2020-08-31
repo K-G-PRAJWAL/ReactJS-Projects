@@ -1,0 +1,58 @@
+body {
+  margin: 20px 40px;
+  background: #ef3b36; /* fallback for old browsers */
+  background: linear-gradient(
+    to right,
+    #ef3b36,
+    #ffffff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.job {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: "space-between";
+  margin: 20px 0;
+  padding: 20px 10px;
+  align-items: center;
+  background-color: rgb(250, 217, 222) !important;
+}
+
+.displayJobs {
+  font-family: "Heebo", sans-serif !important;
+  font-weight: 300 !important;
+}
+
+.jobTitle {
+  font-weight: 400 !important;
+}
+
+.job:hover {
+  cursor: pointer;
+  color: #ef3b36;
+}
+
+.job-company {
+  padding: 0 30px;
+}
+
+.job-dialog {
+  padding: 30px 50px;
+}
+
+.detail-logo {
+  height: 30px;
+  float: right;
+}
+
+.Title {
+  align-items: center;
+  color: rgb(255, 255, 255);
+  font-weight: 700 !important;
+  font-family: "Heebo", sans-serif !important;
+}
+
+.dateUpdated {
+  margin-left: auto;
+}

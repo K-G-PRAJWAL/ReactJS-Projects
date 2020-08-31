@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(151, 151, 151);
+}
+
+.container {
+  padding: 1em;
+  width: 100%;
+  text-align: center;
+}
+
+.num {
+  color: white;
+}
+
+.flex {
+  min-height: 60vh;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.box {
+  margin: 1em 0;
+  min-width: 200px;
+  padding: 0.5em;
+  border-radius: 8px;
+  width: 100%;
+  font-size: 1.5em;
+}
+
+.box.confirmed {
+  border: 1px solid #f3a862;
+  background: #f8b284;
+}
+
+.box.recovered {
+  border: 1px solid #9df77a;
+  background: #b4fc84;
+}
+
+.box.deaths {
+  border: 1px solid #fd6666;
+  background: #ec6b6b;
+}
+
+.dropDown {
+  margin: 1em 0;
+  padding: 0.5em;
+  font-size: 1em;
+  color: white;
+}
+
+.heading {
+  color: rgb(121, 67, 67);
+}
+
+@media screen and (min-width: 950px) {
+  .flex {
+    flex-wrap: nowrap;
+  }
+
+  .box {
+    margin: 1em;
+    font-size: 2em;
+    line-height: 1.5;
+    max-width: 300px;
+  }
+}

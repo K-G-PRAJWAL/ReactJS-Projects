@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather App</title>
+        <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
+        <style type="text/css">
+            html {
+                height: 100%;
+            }
+            body {
+                height: 100%;
+                background-image: linear-gradient( to right, rgba(255, 100, 0, 0.52), rgba(0, 195, 255, 0.73) );
+                display: flex;
+                font-size: 30px;
+                color: white;
+                font-family: 'Balsamiq Sans', cursive;
+                align-items: center;
+                text-align: center;
+                justify-content: center;
+            }
+            .lds-ripple {
+                display: inline-block;
+                position: relative;
+                width: 80px;
+                height: 80px;
+            }
+            .lds-ripple div {
+                position: absolute;
+                border: 4px solid #fff;
+                opacity: 1;
+                margin: -120px 170px;
+                border-radius: 50%;
+                animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+            }
+            .lds-ripple div:nth-child(2) {
+                animation-delay: -0.5s;
+            }
+                @keyframes lds-ripple {
+                0% {
+                    top: 36px;
+                    left: 36px;
+                    width: 0;
+                    height: 0;
+                    opacity: 1;
+                }
+                100% {
+                    top: 0px;
+                    left: 0px;
+                    width: 72px;
+                    height: 72px;
+                    opacity: 0;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="lds-ripple"><div></div><div></div></div>
+        <span>You are currently offline. Please go online to check the weather.</span>
+    </body>
+</html>

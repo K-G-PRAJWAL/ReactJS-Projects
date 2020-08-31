@@ -1,0 +1,94 @@
+/* properties of individual Node */
+.node {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #fdff85;
+  display: inline-block;
+  border-radius: 100%;
+}
+
+.node:hover {
+  transition: 0.3s;
+  transform: scale(1);
+  border: 1px solid orangered;
+  background-color: rgba(255, 231, 179, 0.986);
+}
+
+/* Start node properties */
+.node-start {
+  background-color: rgb(6, 255, 6);
+}
+
+/* Finish Node properties */
+.node-finish {
+  background-color: rgb(255, 58, 58);
+}
+
+/* Animations to visited nodes */
+.node-visited {
+  animation-name: visitedAnimation;
+  /* Call the keyframes defined below */
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+
+@keyframes visitedAnimation {
+  0% {
+    transform: scale(0.3);
+    background-color: rgba(180, 0, 0, 0.75);
+  }
+
+  50% {
+    background-color: rgba(255, 16, 16, 0.966);
+  }
+
+  75% {
+    transform: scale(1.2);
+    background-color: rgb(255, 94, 0);
+  }
+
+  100% {
+    transform: scale(1);
+    background-color: rgba(255, 187, 0, 0.986);
+  }
+}
+
+/* Node wall Style */
+.node-wall {
+  background-color: rgb(16, 0, 75);
+}
+
+/* Handle animations for displaying the shortest path */
+.node-shortest-path {
+  animation-name: shortestPath;
+  /* Keyframes defined below */
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+
+@keyframes shortestPath {
+  0% {
+    transform: scale(0.6);
+    background-color: rgb(90, 0, 50);
+  }
+
+  50% {
+    transform: scale(1.2);
+    background-color: rgb(4, 0, 250);
+  }
+
+  100% {
+    transform: scale(1);
+    background-color: rgb(22, 228, 255);
+  }
+}
