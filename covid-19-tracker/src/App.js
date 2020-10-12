@@ -29,6 +29,11 @@ class App extends Component {
         <Cards data={data} />
         <CountryPicker handleCountryChange={this.handleCountryChange} />
         <Chart data={data} country={country} />
+        <footer>
+          Made with{" "}
+          <span style={{ color: "red", fontSize: "20px" }}>&hearts;</span>, by K
+          G Prajwal
+        </footer>
       </div>
     );
   }

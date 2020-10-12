@@ -23,3 +23,25 @@ body {
     width: 100%;
   }
 }
+
+footer {
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  background: linear-gradient(
+    to right,
+    white,
+    rgb(29, 29, 29),
+    rgb(141, 140, 141),
+    red,
+    rgb(0, 252, 0),
+    green,
+    blue,
+    rgb(2, 192, 255),
+    rgb(141, 140, 141),
+    rgb(29, 29, 29),
+    white
+  );
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  margin: 20px;
+}
