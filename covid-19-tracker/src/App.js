@@ -31,8 +31,10 @@ class App extends Component {
         <Chart data={data} country={country} />
         <footer>
           Made with{" "}
-          <span style={{ color: "red", fontSize: "20px" }}>&hearts;</span>, by K
-          G Prajwal
+          <span style={{ color: "red", fontSize: "20px" }}>&hearts;</span>, by{" "}
+          <a href="https://www.linkedin.com/in/k-g-prajwal-a6b3b517a/">
+            K G Prajwal
+          </a>
         </footer>
       </div>
     );
