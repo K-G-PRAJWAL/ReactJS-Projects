@@ -1,4 +1,5 @@
-# PokeDex
+# [PokeDex](https://poke-dex-pokemon.netlify.app/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/11dc6821-879e-4551-8ad9-3531b0c5f521/deploy-status)](https://app.netlify.com/sites/poke-dex-pokemon/deploys)
 
 <img src="./src/READMEimg.png">
 
