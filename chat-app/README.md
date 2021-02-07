@@ -1,6 +1,6 @@
 # Chat App
 
-A chat application built using react on [chat engine](https://chatengine.io/). The app is hosted live [here](https://friends-chat-app.netlify.app/). Login as `RossGeller`, `PhoebeBuffay`, `MonicaGeller`, `RachelGreen`, `ChandlerBing` or `JoeyTribbiani` with a password `12345` and have fun:happy.
+A chat application built using react on [chat engine](https://chatengine.io/). The app is hosted live [here](https://friends-chat-app.netlify.app/). Login as `RossGeller`, `PhoebeBuffay`, `MonicaGeller`, `RachelGreen`, `ChandlerBing` or `JoeyTribbiani` with a password `12345` and have fun :smile:.
 
 ---
 
