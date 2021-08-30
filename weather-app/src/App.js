@@ -70,6 +70,8 @@ function App() {
           ""
         )}
       </main>
+
+<p>© Copyright Ministry of Earth Sciences, New Delhi, India</p>
     </div>
   );
 }
