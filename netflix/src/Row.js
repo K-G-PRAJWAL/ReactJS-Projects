@@ -54,6 +54,8 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
         ))}
       </div>
       {trailerUrl && <Youtube videoId={trailerUrl} opts={opts}/>}
+      <p>There’s even more to watch.
+Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals and more. Watch as much as you want, anytime you want.</p>
     </div>
   );
 };
