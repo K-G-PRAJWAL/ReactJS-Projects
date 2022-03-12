@@ -1,0 +1,33 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d1d1d1;
+  position: relative;
+  margin: 10%;
+}
+
+form {
+  position: fixed;
+  bottom: 100px;
+  right: 180px;
+  left: 180px;
+  border-radius: 10px;
+  border: 2px solid rgb(214, 0, 203);
+  color: #000;
+  box-shadow: 2px rgba(234, 0, 255, 0.5);
+}
+
+.form-group {
+  margin-bottom: 0;
+}
+
+.completedTodo {
+  background-color: darkgray;
+  text-decoration: line-through;
+}
