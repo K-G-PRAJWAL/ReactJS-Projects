@@ -8,7 +8,7 @@
     "@testing-library/user-event": "^7.2.1",
     "axios": "^0.19.2",
     "bootstrap": "^4.4.1",
-    "browser-image-resizer": "^2.1.0",
+    "browser-image-resizer": "^2.4.1",
     "firebase": "^7.13.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
