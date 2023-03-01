@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "plotly.js": "^1.53.0",
+    "plotly.js": "^1.58.5",
     "plotly.js-basic-dist": "^1.53.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
