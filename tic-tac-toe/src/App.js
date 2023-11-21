@@ -36,6 +36,10 @@ const App = () => {
         itemArray[winSituations[i][0]] === itemArray[winSituations[i][2]]) {
         setWinMessage(`${itemArray[winSituations[i][0]]} wins!`);
       }
+      else if (!itemArray.includes("empty") &&
+        itemArray[winSituations[i][0]] !== "empty") {
+        setWinMessage("Tie!");
+      }
     }
   }
 
